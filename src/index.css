@@ -34,6 +34,11 @@
   src: url(./assets/fonts/TT\ Firs\ Neue\ Trial\ Bold.ttf) format("truetype");
 }
 
+html {
+  scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
